@@ -56,5 +56,22 @@ public class Main {
         ivan.addWork();
         System.out.println(ivan.getSalary());
 
+        System.out.println();
+
+
+        //Make a Calculator class, which will have 5 static methods:
+        Calculator calc = new Calculator();
+        System.out.println("Sum "+calc.plus(4, 50));
+        System.out.println("Difference "+calc.minus(4, 50));
+        System.out.println("Product "+calc.multiply(4, 50));
+        System.out.println("Division "+calc.divide(4, 50));
+        System.out.println("Percent "+calc.percent(4, 50));
+
+        System.out.println();
+
+        //Create a class, which will have a method to find max element of int array.
+        // The class must have a constructor accepting int array.
+        MaxElement m = new MaxElement(new int[]{1,4,3,6,4,7,4,8});
+        System.out.println(m.findMax());
     }
 }
