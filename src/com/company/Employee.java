@@ -15,11 +15,11 @@ public class Employee {
     }
 
     public void addSalary(){
-        if (this.salary < 500) this.salary+=10;
+        if (salary < 500) salary+=10;
     }
 
     public void addWork(){
-        if (this.hours > 6) this.salary+=5;
+        if (hours > 6) salary+=5;
     }
 
     public int getSalary() {
